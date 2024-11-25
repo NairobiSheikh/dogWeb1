@@ -16,6 +16,9 @@ body {
 .navbar .nav-item.active {
   border-left: #555 3px solid;
 }
+.bg-darks  {
+  background-color: #ff7e00;
+}
 
 .flaticon-animals-allowed:after {
   font-family: Flaticon;
@@ -34,16 +37,16 @@ body {
 
 /* phone # */
 .phone {
-  font-family: 'Passion One', cursive;
-  display: inline-block;
-  color: #ffcc00;
+  /* font-family: 'Passion One', cursive; */
+  /* display: inline-block; */
+  color: #ffcc00 !important;
   text-decoration: none;
-  font-size: 28px;
-  border-bottom: none;
-  padding-left: 15px;
+  /* font-size: 28px; */
+  /* border-bottom: none; */
+  /* padding-left: 15px; */
 }
 .phone:hover {
-  text-decoration: none;
+  color: #ff7e00;
   
 }
 
