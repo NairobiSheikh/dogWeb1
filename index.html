@@ -1,11 +1,606 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/7e09908c25.js"></script>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Ekko-Lightbox CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+    integrity="sha256-HAaDW5o2+LelybUhfuk0Zh2Vdk8Y2W2UeKmbaXhalfA=" crossorigin="anonymous" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Passion+One&display=swap" rel="stylesheet">
+  <!-- Custom Style Sheet CSS -->
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>Cozy Canine Services</title>
 </head>
+
 <body>
+  <!-- Navbar Section -->
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <!-- Logo -->
+      <!-- <div class="logo-area">
+        <a href="index.html" class="logo">
+          <img src="./img/logoCozy.png" alt="logo" id="imgLogo"><span class="phone"> (972) 347-5335</span>
+        </a>
+      </div> -->
+
+      <div class="navbar-header page-scroll">
+				<!-- Logo -->
+				<div class="page-scroll">
+					<a class="navbar-brand" href="#page-top">
+						<!--Font Icon logo and text -->
+						<span class="flaticon-animals-allowed"></span>COME SIT STAY HERE
+					</a>
+				</div>
+			</div>
+
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#payments" class="nav-link">Payments</a>
+          </li>
+          <li class="nav-item">
+            <a href="questionnaire.html" class="nav-link">questionnaire</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- SHOWCASE SLIDER -->
+  <section id="showcase">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-image-1 active">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3">All-Inclusive Pet Sitting Visits</h1>
+              <p class="lead">We take care of your home in addition to your pets</p>
+              <a href="#services" class="btn yellow btn-lg">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-2">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3">Lockout Service</h1>
+              <p class="lead">Trained for medical emergencies with access to company owner's personal cellphone 24/7
+              </p>
+              <a href="#" class="btn yellow btn-lg">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item carousel-image-3">
+          <div class="container">
+            <div class="carousel-caption d-none d-sm-block text-right mb-5">
+              <h1 class="display-3">Locally Owned Business</h1>
+              <p class="lead">No Holiday surcharge so you can enjoy your vacation to the fullest</p>
+              <a href="#about" class="btn yellow btn-lg">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Home icon Section -->
+  <!-- <section id="home-icons" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-home fa-3x mb-2"></i>
+          <h3>Home Visits</h3>
+          <p>Planning a vacation during the holiday or a break from work?</p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-taxi fa-3x mb-2"></i>
+          <h3>Pet Taxi</h3>
+          <p>Does your pet need a ride to the vet or the groomers?</p>
+        </div>
+        <div class="col-md-4 mb-4 text-center">
+          <i class="fas fa-camera fa-3x mb-2"></i>
+          <h3>Daily Updates</h3>
+          <p>Worried about the status of your pet after long hours of work?</p>
+        </div>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Service SECTION -->
+   <!-- PAGE HEADER -->
+  <header id="page-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 m-auto text-center">
+          <h1>Our Services</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, sint?</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- SERVICES SECTION -->
+  <section id="services" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-header bg-dark text-white">
+
+              <!-- Service Plan 1 -->
+              <h3>Service Plan One</h3>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">$59.99/Month</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, fuga?</p>
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Feature One
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Feature Two
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Feature Three
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Feature Four
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Feature Five
+                </li>
+              </ul>
+              <a href="#" class="btn btn-block mt-2 yellow">Get It</a>
+            </div>
+            <div class="card-footer text-muted">
+              1 Year Plan
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-header bg-dark text-white">
+
+              <!-- Service Plan 2 -->
+              <h3>Service Plan Two</h3>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">$99.99/Month</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, fuga?</p>
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Feature One
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Feature Two
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Feature Three
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Feature Four
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Feature Five
+                </li>
+              </ul>
+              <a href="#" class="btn btn-block mt-2 yellow">Get It</a>
+            </div>
+            <div class="card-footer text-muted">
+              1 Year Plan
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-header bg-dark text-white">
+
+              <!-- Service Plan 3 -->
+              <h3>Service Plan Three</h3>
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">$129.99/Month</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur elit. Itaque, fuga?</p>
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Feature One
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Feature Two
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Feature Three
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Feature Four
+                </li>
+                <li class="list-group-item">
+                  <i class="fas fa-check"></i> Feature Five
+                </li>
+              </ul>
+              <a href="#" class="btn btn-block mt-2 yellow">Get It</a>
+            </div>
+            <div class="card-footer text-muted">
+              1 Year Plan
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PAGE HEADER -->
+  <header id="page-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 m-auto text-center">
+          <h1>About Us</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, sint?</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>What We Do</h1>
+          <p>Since 2010 Chester & Lisa Johnson have provided in-home pet care to Prosper, TX and surrounding areas.
+
+            <p> Please take some time to our explore our website, and learn more about why we continue to be the #1
+              choice
+              for in-home pet care in our area.</p>
+
+            <p>Family Owned and Operated proudly in Prosper, TX.</p>
+            <p>Bonded, Insured, and Background Checked.</p>
+            <p>Multiple layers of security and privacy for your information.</p>
+            <p>A fully trained staff of professionals that is well equipped to handle emergency situations.</p>
+            <p>Continued education provided to ensure we are up to date on new animal handling techniques.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="./img/about.png" alt="owner" class="img-fluid rounded-circle d-none d-md-block about-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Home Heading Section -->
+    <section id="home-heading" class="p-5">
+      <div class="dark-overlay">
+        <div class="row">
+          <div class="col">
+            <div class="container pt-5">
+              <h1>Are you ready to get started?</h1>
+              <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus quo
+                accusamus assumenda optio soluta totam ex voluptatum enim delectus itaque!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="p-4 bg-dark text-white">
+      <div class="container">
+        <h2 class="text-center">Testimonials</h2>
+        <div class="row text-center">
+          <div class="col">
+            <div class="slider">
+              <!-- Testimonial #1 -->
   
+              <div id="testimonials" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" id="testimonials">
+                    <!-- Testimonial #1 -->
+                    <div>
+                      <blockquote class="blockquote">
+                        <p class="mb-0">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, in?
+                        </p>
+                        <footer class="blockquote-footer">John Dow From
+                          <cite title="Company 1">Company 1</cite>
+  
+                        </footer>
+                      </blockquote>
+                    </div>
+                  </div>
+  
+                  <!-- Testimonial #2 -->
+                  <div id="testimonials" class="carousel-item">
+                    <div>
+                      <blockquote class="blockquote">
+                        <p class="mb-0">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, in?
+                        </p>
+                        <footer class="blockquote-footer">Christy Peters From
+                          <cite title="Company 1">Company 2</cite>
+                        </footer>
+                      </blockquote>
+                    </div>
+                  </div>
+  
+                  <!-- Testimonial #3 -->
+                  <div id="testimonials" class="carousel-item">
+                    <div>
+                      <blockquote class="blockquote">
+                        <p class="mb-0">
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, in?
+                        </p>
+                        <footer class="blockquote-footer">Meghan Williams From
+                          <cite title="Company 1">Company 3</cite>
+                        </footer>
+                      </blockquote>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>  
+
+    <!-- PAGE HEADER -->
+    <header id="page-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 m-auto text-center">
+            <h1>Payments</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, sint?</p>
+          </div>
+        </div>
+      </div>
+    </header>
+  
+    <!-- PAYMENT SECTION -->
+    <SECTION id="payments" class="py-3">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card-columns">
+              <div class="card">
+                <img
+                  src="https://images.pexels.com/photos/50987/money-card-business-credit-card-50987.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                  alt="" class="img-fluid card-img-top">
+                <div class="card-body">
+                  <h4 class="card-title">
+                    Credit Cards
+                  </h4>
+                  <small class="text-muted">Taxes & Fees included</small>
+                  <hr>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptatibus rem
+                    aut! Modi nobis explicabo reprehenderit dolorem sapiente soluta labore neque delectus velit a. Quos
+                    maxime iusto nemo provident quaerat!
+  
+                  </p>
+                </div>
+              </div>
+  
+              <div class="card p-3">
+                <blockquote class="card-blockquote card-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus dolores nemo dignissimos
+                    reiciendis quas et.</p>
+                  <footer class="blockquote-footer">
+                    <small class="text-muted">Methods of payment <cite title="Source Title"> Visa, MC, AMEX</cite></small>
+                  </footer>
+                </blockquote>
+              </div>
+              <!-- Card #2 -->
+              <div class="card">
+                <img src="https://images.pexels.com/photos/34204/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                  alt="" class="img-fluid card-img-top">
+                <div class="card-body">
+                  <h4 class="card-title">
+                    Checking Account
+                  </h4>
+                  <small class="text-muted">Taxes & Fees included</small>
+                  <hr>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptatibus rem
+                    aut! Modi nobis explicabo reprehenderit dolorem sapiente soluta labore neque delectus velit a. Quos
+                    maxime iusto nemo provident quaerat!
+  
+                  </p>
+                </div>
+              </div>
+  
+              <div class="card p-3 yellow">
+                <blockquote class="card-blockquote card-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus dolores nemo dignissimos
+                    reiciendis quas et.</p>
+                  <footer class="blockquote-footer">
+                    <small class="text-white">Methods of payment <cite title="Source Title"> Visa, MC, AMEX</cite></small>
+                  </footer>
+                </blockquote>
+              </div>
+              <!-- Card #3 -->
+              <div class="card">
+                <img
+                  src="https://media.istockphoto.com/photos/mobile-payment-with-nfc-technology-on-smartphone-shopping-online-with-picture-id869967064?k=6&m=869967064&s=612x612&w=0&h=Rg34BFBqEnBSOOo91LZyrc4LyiUfzWCh7dFBH2-ezzw="
+                  alt="" class="img-fluid card-img-top">
+                <div class="card-body">
+                  <h4 class="card-title">
+                    Mobile Payment
+                  </h4>
+                  <small class="text-muted">Taxes & Fees included</small>
+                  <hr>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptatibus rem
+                    aut! Modi nobis explicabo reprehenderit dolorem sapiente soluta labore neque delectus velit a. Quos
+                    maxime iusto nemo provident quaerat!
+  
+                  </p>
+                </div>
+              </div>
+  
+              <div class="card p-3">
+                <blockquote class="card-blockquote card-body">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus dolores nemo dignissimos
+                    reiciendis quas et.</p>
+                  <footer class="blockquote-footer">
+                    <small class="text-muted">Methods of payment <cite title="Source Title"> Visa, MC, AMEX</cite></small>
+                  </footer>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </SECTION>
+
+  <!-- PHOTO GALLERY -->
+  <section id="gallery" class="py-5">
+    <div class="container">
+      <h1 class="text-center">Photo Gallery</h1>
+      <!-- <p class="text-center">Meet Our Clients</p> -->
+
+
+
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <a href="./img/Benji H _1_2022.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
+            data-width="560">
+            <img src="./img/Benji H _1_2022.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="./img/Benji H _1_2022.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
+            data-width="560">
+            <img src="./img/Benji H _1_2022.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="./img/Benji H _1_2022.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
+            data-width="560">
+            <img src="./img/Benji H _1_2022.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+      <div class="row mb-4">
+        <div class="col-md-4">
+          <a href="./img/Benji H _1_2022.jpg"  data-toggle="lightbox" data-gallery="img-gallery" data-height="560"
+            data-width="560">
+            <img src="./img/Benji H _1_2022.jpg"  alt="" class="img-fluid">
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="./img/Benji H _1_2022.jpg"  data-toggle="lightbox" data-gallery="img-gallery" data-height="561"
+            data-width="561">
+            <img src="./img/Benji H _1_2022.jpg"  alt="" class="img-fluid">
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="./img/Benji H _1_2022.jpg" data-toggle="lightbox" data-gallery="img-gallery" data-height="560" data-width="560">
+            <img src="./img/Benji H _1_2022.jpg" alt="" class="img-fluid">
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- <a class="nav-link" href="https://www.instagram.com/cozycanine" target="_blank">
+      <p class="text-center">More Clients...</p>
+    </a> -->
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="text-center p-4">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>Copyright &copy; <span id="year"></span> COME SITE STAY HERE</p>
+        </div>
+      </div>
+    </div>
+    <!-- Social Media -->
+    <!-- <div class="social-icons">
+      <a href="#" target="_blank"><i class="fab fa-paypal fa-2x" aria-hidden="true" style="color: #3b7bbf"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-instagram fa-2x" style="color: #bc2a8d"></i></a>
+      <a href="#" target="_blank"><i class="fas fa-at fa-2x" style="color: orange"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-pinterest fa-2x" style="color: red"></i></a>
+    </div> -->
+
+  </footer>
+
+
+
+  <!-- jQuery.com CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <!-- Ekko-Lightbox JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"
+    integrity="sha256-Y1rRlwTzT5K5hhCBfAFWABD4cU13QGuRN6P5apfWzVs=" crossorigin="anonymous"></script>
+
+  <script>
+    // Get current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+    // Configure Slider
+    $('.carousel').carousel({
+      interval: 6000,
+      pause: 'hover'
+    });
+
+    // Lightbox Init
+    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
+  </script>
 </body>
+
 </html>
